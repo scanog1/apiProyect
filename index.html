@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con Apis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <nav class="nav__container">
+        <a href="./index.html"><img class="nav__logo" src="./img/MovieMag.png"></a>
+
+        <ul class="nav__info">
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <main>
+
+        <div class="main__welcome">
+            <p>
+                Welcome to MovieMag!
+
+                We are delighted to have you here in our community of TV series enthusiasts. At MovieMag, we are
+                passionate about series and want to share that passion with you. We offer honest reviews, detailed
+                critiques, and updated news from the world of TV series. Additionally, feel free to join our discussions
+                and share your own opinions. Here, your voice matters, and we want to know what you think about the
+                series you love (and those you don't). Get ready to dive into a world of fascinating stories and TV
+                adventures! Thank you for being part of MovieMag. Let the show begin!</p>
+        </div>
+        <section class="main__50Container">
+            <div class="main__50">
+                <img class="main__50img" src="./img/movies.webp">
+
+            </div>
+            <div class="main__50">
+                <p>
+                    Write the name of your favorite TV show
+                </p>
+                <form id="searchForm">
+                    <input type="search" id="search" name="busqueda" placeholder="Buscar...">
+                    <button class="search__button" type="button">Buscar</button>
+                </form>
+
+            </div>
+        </section>
+        <div id="showGrid">
+
+        </div>
+        <section class="main__50Container">
+            
+            <div class="main__50">
+                <p>
+                    Write de name of your favorite movie
+                </p>
+                <form id="searchFormMovie">
+                    <input type="search" id="searchMovie" name="busqueda" placeholder="Buscar...">
+                    <button class="search__buttonMovie" type="button">Buscar</button>
+                </form>
+                
+
+            </div>
+            <div class="main__50">
+                <img class="main__50img" src="./img/pexels-pixabay-33129.jpg">
+
+            </div>
+        </section>
+        <div id="showGridMovie">
+
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer-contenido">
+            <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+            <ul class="enlaces">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
