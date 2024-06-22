@@ -97,7 +97,7 @@ const loadShows = async (query) => {
 // Función para cargar las películas
 const loadMovies = async (query) => {
     try {
-        const response = await axios.get(`http://www.omdbapi.com/?s=${query}&apikey=b3a8f27a`);
+        const response = await axios.get(`https://www.omdbapi.com/?s=${query}&apikey=b3a8f27a`);
 
 
         if (response.data.Response === "True") {
